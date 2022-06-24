@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Facebook Login</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin:0;
+                background-color: #F1F2F6;
+            }
+            .parent{
+                padding: 50px;
+                width: 100%;
+                height: 100%;
+                background-color: #F1F2F6;
+                display: flex;
+            }
+            .left{
+                width:60%;
+                height: 100%;
+                
+                padding:150px 100px 0px 250px;
+                
+            }
+            .right{
+                width:40%;
+                height: 100%;
+                
+                padding: 50px 80px 30px 0px;
+                
+            }
+
+            .left img{
+                width:300px;
+            }
+
+            .left h3{
+                font-size: 22px;
+                font-family: sans-serif;
+                font-weight: 500;
+            }
+            .right .form{
+                width:100%;
+                height:90%;
+                background-color: #fff;
+                padding-left: 10px;
+                padding-top: 10px;
+                border-radius: 5px;
+
+                box-shadow: 5px 5px 10px #565656;
+            }
+            input[type="text"],input[type="password"]{
+                border: 1px solid #ccc;
+                width: 90%;
+                padding: 20px;
+                border-radius: 10px;
+                margin: 10px;
+            }
+            .form input[type="button"]{
+
+                width:90%;
+                background-color: #1878F3;
+                color:#fff;
+                border: none;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 10px 5px;
+                font-weight: 600;
+
+            }
+            .form > p {
+                text-decoration: none;
+                text-align: center;
+                color: #1878F3;
+                padding: 0px 0px;
+            }
+            .form input[type="submit"]{
+
+                width:55%;
+                background-color:#42B72A;
+                color:#fff;
+                border: none;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 10px 80px;
+                font-weight: 600;
+
+            }
+            .right > p{
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 14px;
+            }
+
+            .right > p > a{
+                text-decoration: none;
+                color: #000;
+                font-weight: 600;
+            }
+
+            hr{
+                width: 90%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="left">
+                <img src="fblogo.png">
+                <h3>Facebook helps you to connect and share with the people in your life. </h3>
+            </div>
+            <div class="right">
+                <div class="form">
+                    <input type="text" placeholder="Email address or Phone number">
+                    <input type="password" placeholder="Password">
+                    <input type="button" value="Login">
+                    <p>Forgetten Password?</p>
+                    <hr>
+                    <input type="submit" value="Create New Account">
+                </div>
+                <p><a href="#">Create page</a> for celebrity, brand or business.</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>

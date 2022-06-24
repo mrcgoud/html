@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body{
+                padding: 0px;
+                margin: 0px;
+            }
+            .parent{
+                width: 100%;
+                height: 100%;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .child{
+                width: 30%;
+                height: 62%;
+                background-color: white;
+                border-radius: 10px;
+                padding: 30px;
+                box-shadow: 0px 0px 5px grey;
+                
+                
+            }
+            .field{
+                border: 2px solid #CCC;
+                border-radius: 20px;
+                padding: 8px 5px 8px 25px;
+                margin: 10px;
+                width: 93%;
+                height: 50px;
+            }
+            h3{
+                text-align: center;
+                font-weight: 300;
+                font-size: 20px;
+            }
+            .signin{
+                width: 93%;
+                background-color: blue;
+                color: #fff;
+                text-align: center;
+                padding: 14px 0px 14px 0px;
+                border-radius: 30px;
+                border: 1px solid blue;
+                margin: 4px 10px 4px 10px;
+                text-transform: uppercase;
+            }
+            .google{
+                width: 93%;
+                background-color: red;
+                color: #fff;
+                text-align: center;
+                padding: 14px 0px 14px 0px;
+                border-radius: 30px;
+                border: 1px solid red;
+                margin: 4px 10px 4px 10px;
+                text-transform: uppercase;
+            }
+
+            .fb{
+                width: 93%;
+                background-color: darkblue;
+                color: #fff;
+                text-align: center;
+                padding: 14px 0px 14px 0px;
+                border-radius: 30px;
+                border: 1px solid darkblue;
+                margin: 4px 10px 4px 10px;
+                text-transform: uppercase;
+            }
+            hr{
+                width: 93%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <h3>Sign In</h3>
+                <input type="email" required placeholder="Email Address" class="field">
+                <br>
+                <input type="password" required placeholder="Password" class="field">
+                <br>
+                <input type="checkbox" for="pwd">
+                <label id="pwd">Remember Password</label>
+                <br>
+                <input type="submit" class="signin" value="sign in">
+                <hr>
+                <input type="button" class="google" value="Sign in with GOOGLE">
+                <input type="button" class="fb" value="Sign in with Facebook">
+
+
+            </div>
+
+        </div>
+    </body>
+</html>

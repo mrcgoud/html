@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            *{
+                color:red;
+            }
+            div p{
+                color: red;
+            }
+            div + p{
+                color: blue;
+            }
+            p:hover{
+                background-color: yellow;
+            }
+            p::first-letter{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+       <p>para 1</p>
+       <p>para 2</p>
+       <div>
+           <p>para 3</p>
+           <p>para 4</p>
+           <span>
+               <p>para 5</p>
+               <p>para 6</p>
+           </span>
+           <p>para 7</p>
+           <p>para 8</p>
+       </div> 
+       <p>para 9</p>
+       <p>para 10</p>
+    </body>
+</html>

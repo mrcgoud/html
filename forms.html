@@ -1,0 +1,77 @@
+<style>
+    input{ 
+        border: 2px solid #CCC;
+        border-radius: 20px;
+        padding: 8px 5px 8px 5px;
+        margin: 10px;
+        width: 250px;
+        
+        }
+    .field-name{
+        width: 200px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+</style>
+<form>
+
+    <label class="field-name" for="name">Name</label>
+    <input type="text" id="name" required minlength="3" maxlength="10">
+    <br>
+    <label for="age">Age</label>
+    <input type="number" id="age" required min="18" maxlength="100">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" required email>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password">
+    <br>
+    <label for="date">DOB</label>
+    <input type="date" id="date">
+    <br>
+    <label for="time">TOB</label>
+    <input type="time" id="time">
+    <br>
+    <label for="range">Volume</label>
+    <input type="range" id="range">
+    <br>    
+    <label for="color">Color</label>
+    <input type="color" id="color">
+    <br>
+
+    <br>
+    <label for="file">File</label>
+    <input type="file" id="file">
+    <br>    
+    <label for="textarea">comments</label>
+    <textarea id="textarea" rows="10" cols="20"></textarea>
+    <br>
+
+    <br>
+    <label >I Know</label>
+    <label for="html">HTML</label>
+    <input type="checkbox" id="html">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="css">
+    <label for="js">JS</label>
+    <input type="checkbox" id="js">
+      
+    <br>
+    <label>Gender</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <br>
+    <label for="state">State</label>
+    <select id="statess">
+        <option>Telangana</option>
+        <option>AP</option>
+    </select>
+    
+    <br>
+    <p>&copy; &nbsp; &euro;</p>
+    <input type="submit">
+    
+</form>

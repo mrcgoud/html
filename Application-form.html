@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Application form</title>
+</head>
+<body >
+    <form style="border:1px solid #000; padding: 5px; width:450px;">
+    <table>
+        <thead>
+            <tr>Application Form</tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                <td><label for="name">Full Name</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Nationality</label></td>
+                <td>
+                    <select id="country">
+                        <option>India</option>
+                        <option>Pakistan</option>
+                        <option>Bangladesh</option>
+                        <option>Srilanka</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Skills</label></td>
+                <td>
+                    <input type="checkbox" id="asp">
+                    <label for="asp">ASP.Net</label>
+                    <input type="checkbox" id="jquery">
+                    <label for="jquery">Jquery</label>
+                    <br>
+                    <input type="checkbox" id="mvc">
+                    <label for="mvc">MVC</label>
+                    <input type="checkbox" id="sql">
+                    <label for="sql">SQL Server</label>
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Post applying for</label></td>
+                <td>
+                    <input type="radio" id="trainee" name="post-applying">
+                    <label for="trainee">Trainee</label>
+                    <input type="radio" id="software-engineer" name="post-applying">
+                    <label for="software-engineer">Software Engineer</label>
+                    <br>
+                    <input type="radio" id="team-leader" name="post-applying">
+                    <label for="team-leader">Team Leader</label>
+                    <input type="radio" id="project-manager" name="post-applying">
+                    <label for="project-manager">Project Manager</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="file">Upload Resume</label></td>
+                <td><input type="file" id="file"></td>
+            </tr>
+            <tr>
+                <td><label for="resume">Paste your resume</label></td>
+                <td><textarea id="resume" rows="5" cols="40" ></textarea></td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <input type="checkbox" for="notify">
+    <label>notify me the status via email</label>
+    <br>
+    <input type="radio" for="accept">
+    <label id="accept">I agree terms & conditions</label>
+    <br>
+    <input type="submit"><input type="reset">
+</form>
+</html>

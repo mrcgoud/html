@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>signin</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                padding: 0;
+                margin: 0;
+                
+            }
+            .parent{
+                width:100%;
+                height: 100%;
+                background-color: aliceblue;
+                display: flex;
+                padding: 30px;
+                
+            }
+            .child{
+                width:50%;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                
+            }
+            
+            img{
+                width:100%;
+                height:100%;
+            }
+            input[type='text'],input[type='password']{
+                width: 200px;
+                padding: 10px 40px 10px 40px;
+            }
+            input[type="button"]{
+                width: 400px;
+                padding: 15px 40px 15px 40px;
+                background-color: green;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 3px;
+                margin: 15px;
+                color: #fff;
+            }
+
+            h3{
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-family: sans-serif;
+            }
+            label{
+                color: #000000;
+                margin:0px 0px 15px 0px;
+            }
+            a{
+                text-decoration: none;
+                color:chartreuse;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <img src="road.jpeg">
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <h3>Account Login</h3>
+                    <input type="text" placeholder="USERNAME">
+                    <input type="password" placeholder="PASSWORD">
+                    <br>
+                    
+                    <a href="admin.html">
+                        <input type="button" value="Signin">
+                    </a>
+                    <br>
+                    <label>Forgot</label>&nbsp;<a href="#">Username</a>/<a href="#">Password?</a>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
